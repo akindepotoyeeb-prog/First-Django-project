@@ -1,6 +1,7 @@
 from rest_framework import serializers
 from django.contrib.auth.models import User
 from .models import TodoList, TodoImage, userProfile
+# from
 
 # Create your models here.
 class UserSerializer(serializers.ModelSerializer):
